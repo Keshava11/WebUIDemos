@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Le styles -->
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <link href="bootstrap/css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link href="bootstrap/css/style.css" rel='stylesheet' type='text/css' />
+  <link href="bootstrap/css/bootstrap-1w.css" rel='stylesheet' type='text/css' />
+  <link href="css/tangled.css" rel='stylesheet' type='text/css' />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/tangled.js"></script>
+  <script type"text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body>
+  <!-- First Heading-->
+  <h3 class="boldheading">Edit Update Demo : 1</h3>
+
+  <!--First DIV with EDIT UPDATE Feature starts here -->
+  <div id="div_edit_update_1" class="control-group">
+
+    <!--Label and Text Input field for First Name-->
+    <label for="name" class="control-label">
+      <p class="text-info">First</p>
+    </label>
+    <input type="text" class="input-medium" style="display:none;" placeholder="First Name" />
+
+    <!--Label and Text Input field for Last Name-->
+    <label for="name" class="control-label">
+      <p class="text-info">Name</p>
+    </label>
+    <input type="text" class="input-medium" style="display:none;" placeholder="Last Name" />
+
+    <!--Edit Button-->
+    <div class="controls-edit">
+      <button type="button" class="btn btn-default" onclick="toggle(this);">Edit</button>
+    </div>
+
+    <!--Update Button-->
+    <!-- <div class="controls-update" style="display:none;">
+      <button type="button" class="btn btn-default" onclick="update(this);">Update</button>
+    </div> -->
+  </div>
+
+  <!--Line Separator-->
+  </br>
+  <div class="lineview"> </div>
+
+  <!-- Second Heading-->
+  <h3 class="boldheading">Edit Update Demo : 2</h3>
+
+  <!--Second DIV with EDIT UPDATE Feature starts here -->
+  <div class="tab-pane" id="div_edit_update_2">
+    <div class="row">
+
+      <!--firstly edit and update the following values-->
+      <div class="col-md-8">
+        <p><b>Personal Information</b></p>
+
+        <!-- Should add form here if required -->
+        <div class="col-md-4">
+
+          <p class="bg-info"><b>Age</b></p>
+          <label class="control-label">
+            <p class="bg-info">26</p>
+          </label>
+          <input type="text" class="input-medium" style="display:none;" placeholder="Age" />
+
+        </div>
+        <div class="col-md-4">
+
+          <p class="bg-info"><b>Blood Group</b></p>
+          <label class="control-label">
+            <p class="bg-info">B+</p>
+          </label>
+          <input type="text" class="input-medium" style="display:none;" placeholder="Blood Group" />
+
+        </div>
+        <div class="col-md-4">
+
+          <p class="bg-info"><b>Height</b></p>
+          <label class="control-label">
+            <p class="bg-info">165</p>
+          </label>
+          <input type="text" class="input-medium" style="display:none;" placeholder="Height" />
+
+        </div>
+        <div class="col-md-4">
+
+          <p class="bg-info"><b>Gender</b></p>
+          <label class="control-label">
+            <p class="bg-info">Male</p>
+          </label>
+          <input type="text" class="input-medium" style="display:none;" placeholder="Gender" />
+
+        </div>
+        <div class="col-md-4">
+
+          <input type="submit" class="p-btn" value="Edit Profile" onclick="toggleProfile(this);" />
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Line Separator-->
+  </br>
+  <div class="lineview"> </div>
+
+  <!-- Third Heading-->
+  <h3 class="boldHeadingExclude">Comment List Demo</h3>
+
+  <!--Third DIV holding a list of comments/messages-->
+  <div>
+    <center>
+      <div id="div_comment_area">
+        <textarea id="commentBox" rows="4" cols="80"> </textarea>
+        </br></br>
+        <button type="button" id="addNoteBtn" class="btn-primary btn-lg" data-toggle="popover" data-trigger="focus" title="Empty" data-content="Please add your comment in the comment box?" onclick="addNote(this)">Add Note</button>
+      </div>
+
+      <div id="div_comment_list" class="commentBoxStyle">
+        <ul id="ul_comment_list" class="list-unstyled ui-sortable">
+
+        </ul>
+      </div>
+    </center>
+  </div>
+
+</body>
+
+</html>

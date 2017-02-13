@@ -1,0 +1,37 @@
+.lineview, .lineviewExclude {
+  background: #F00;
+  width: auto;
+  height: 2px;
+}
+
+.lineviewExclude{
+  background: yellow;
+}
+
+.boldheading,.boldHeadingExclude  {
+  font-weight: bold;
+  color: teal;
+}
+
+.boldHeadingExclude{
+  color: indigo;
+}
+
+
+.commentBoxStyle{
+  width: 300px;
+}
+
+.ui-state-default.commentTextStyle{
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(120, 30, 255);
+  font-size: 20px;
+}
+
+.glyphicon.glyphicon-time.time-text-style{
+  font-family: fantasy;
+  font-weight: normal;
+  color: rgb(255, 30, 120);
+  font-size: 16px;
+}

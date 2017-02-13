@@ -7,7 +7,7 @@ Everything that began and went south on me.
 
 ### Screens:
 ### Editable Labels
-![Complete Edit-Update](https://github.com/Keshava11/WebUIDemos/Byzantine/blob/master/screens/edit_update_commit_8.gif)
+![Complete Edit-Update](https://github.com/Keshava11/WebUIDemos/blob/master/Byzantine/screens/edit_update_commit_8.gif)
 
 ### Comment Box and List
-![Comment View](https://github.com/Keshava11/WebUIDemos/Byzantine/blob/master/screens/comment_list_commit_13.gif)
+![Comment View](https://github.com/Keshava11/WebUIDemos/blob/master/Byzantine/screens/comment_list_commit_13.gif)
